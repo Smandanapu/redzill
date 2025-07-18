@@ -194,3 +194,18 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* In frontend/src/App.css, add these styles at the end */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Aligns items to the top */
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  height: 60px; /* You can adjust this value */
+  width: auto;
+  margin-left: 20px;
+}

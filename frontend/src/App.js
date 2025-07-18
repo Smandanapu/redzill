@@ -64,8 +64,16 @@ function App() {
   return (
     <div className="App">
       <div className="form-container">
-        <h1>Redzill - Texas Property Protest Generator</h1>
-        <p>Please fill all the necessary details for Form 50-132.</p>
+        
+        {/* --- START OF MODIFICATIONS --- */}
+        <div className="header-container">
+          <div>
+            <h1>Redzill - Texas Property Protest Generator</h1>
+            <p>please fill the details for the Form 50-132.</p>
+          </div>
+          <img src="/logo.png" className="app-logo" alt="RedZill Logo" />
+        </div>
+    
         
         <form onSubmit={handleSubmit}>
           {/* Top Section */}
