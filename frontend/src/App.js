@@ -41,7 +41,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://127.0.0.1:5001/api/generate-protest', {
+      const response = await fetch('https://redzill-backend.onrender.com/api/generate-protest', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
