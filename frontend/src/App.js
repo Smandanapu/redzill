@@ -191,10 +191,16 @@ function App() {
           </div>
 
 
-          <button type="submit">Generate Final Two-Page PDF</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
+        {/* --- ADD THIS NEW FOOTER SECTION --- */}
+      <footer>
+        This application is developed by <a href="https://www.geopbytetechnologies.com" target="_blank" rel="noopener noreferrer">geopbytetechnologies.com</a>
+      </footer>
+      {/* --- END OF NEW FOOTER SECTION --- */}
     </div>
+         
   );
 }
 

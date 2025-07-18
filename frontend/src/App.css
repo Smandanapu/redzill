@@ -175,3 +175,22 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+/* In frontend/src/App.css, add these styles at the end of the file */
+
+footer {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+footer a {
+  color: #555;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
